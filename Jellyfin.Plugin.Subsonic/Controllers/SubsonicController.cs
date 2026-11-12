@@ -129,7 +129,7 @@ public class SubsonicController : ControllerBase
     {
         "ping" => (SubsonicEnvelope.Ok(), XmlBuilder.Ping()),
         "getlicense" => (SubsonicEnvelope.Ok(new() { ["license"] = new Dictionary<string, object> { ["valid"] = true, ["email"] = "", ["licenseExpires"] = "2099-01-01T00:00:00.000Z" } }), XmlBuilder.License()),
-        "getopensubsonicextensions" => (SubsonicEnvelope.Ok(new() { ["openSubsonicExtensions"] = new[] { new Dictionary<string, object> { ["name"] = "template", ["versions"] = new[] { 1 } }, new Dictionary<string, object> { ["name"] = "transcodeOffset", ["versions"] = new[] { 1 } }, new Dictionary<string, object> { ["name"] = "songLyrics", ["versions"] = new[] { 1 } } } }), XmlBuilder.OpenSubsonicExtensions()),
+        "getopensubsonicextensions" => (SubsonicEnvelope.Ok(new() { ["openSubsonicExtensions"] = new[] { new Dictionary<string, object> { ["name"] = "template", ["versions"] = new[] { 1 } }, new Dictionary<string, object> { ["name"] = "songLyrics", ["versions"] = new[] { 1 } } } }), XmlBuilder.OpenSubsonicExtensions()),
         _ => (SubsonicEnvelope.Error(ErrorCode.NotFound, "Not found"), XmlBuilder.ErrorEnvelope(ErrorCode.NotFound, "Not found"))
     };
 
