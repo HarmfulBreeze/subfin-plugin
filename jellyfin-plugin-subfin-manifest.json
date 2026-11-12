@@ -9,6 +9,14 @@
     "owner": "williamkray",
     "versions": [
       {
+        "checksum": "cc02bab02e0f49ee5b491f5815ff09b6",
+        "changelog": "6871fee Remove transcode offset extension\n0d876e2 release: update manifest for v10.11.5.7 [skip ci]\n0d0d6bc chore: drop obsolete publish.sh from gitignore (releases via GitHub Actions)\n900c7ca feat: create shares from the web UI with search, tabbed layout\n03d54dc chore: untrack local dev/validation scripts\nddedc63 fix: use GetMusicGenres so getGenres returns music genres (resolves #1)\n16e517e chore: ignore publish.sh (contains private server config)\n1ee4ce3 release: update manifest for v10.11.5.4 [skip ci]\n3c080dc release: bump to v10.11.5.4\n520103c Initial commit: Subfin Jellyfin plugin v10.11.5.3",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/williamkray/subfin-plugin/releases/download/v10.11.5.8/jellyfin-plugin-subfin_10.11.5.8.zip",
+        "timestamp": "2026-11-12T19:57:08Z",
+        "version": "10.11.5.8"
+      },
+      {
         "checksum": "28c67b8da76983c54a23ccd99376c77d",
         "changelog": "0d0d6bc chore: drop obsolete publish.sh from gitignore (releases via GitHub Actions)\n900c7ca feat: create shares from the web UI with search, tabbed layout\n03d54dc chore: untrack local dev/validation scripts\nddedc63 fix: use GetMusicGenres so getGenres returns music genres (resolves #1)\n16e517e chore: ignore publish.sh (contains private server config)\n1ee4ce3 release: update manifest for v10.11.5.4 [skip ci]\n3c080dc release: bump to v10.11.5.4\n520103c Initial commit: Subfin Jellyfin plugin v10.11.5.3",
         "targetAbi": "10.11.0.0",
